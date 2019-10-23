@@ -14,3 +14,8 @@ CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('about', AboutPagePreview)
 CMS.registerPreviewTemplate('products', ProductPagePreview)
 CMS.registerPreviewTemplate('blog', BlogPostPreview)
+
+media_library:
+  name: uploadcare
+  config:
+    publicKey: c8e93558bc9127d71647
