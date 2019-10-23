@@ -1,4 +1,4 @@
-import CMS from 'netlify-cms-app'
+//import CMS from 'netlify-cms-app'
 import uploadcare from 'netlify-cms-media-library-uploadcare'
 //import cloudinary from 'netlify-cms-media-library-cloudinary'
 
@@ -18,4 +18,4 @@ CMS.registerPreviewTemplate('blog', BlogPostPreview)
 media_library:
   name: uploadcare
   config:
-    publicKey: # c8e93558bc9127d71647
+    publicKey: c8e93558bc9127d71647
